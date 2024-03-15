@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "name": "Chicken Stir Fry",
+      "description": "A flavorful and easy-to-make chicken stir fry.",
+      "ingredients": [
+        "550 g chicken breast, sliced",
+        "120 ml soy sauce",
+        "200 g basil leaves",
+        "400 g mushrooms, sliced"
+      ],
+      "time": "30 min",
+      "calories": "320 calories",
+      "image": "https://www.allrecipes.com/thmb/xvlRRhK5ldXuGcXad8XDM5tTAfE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/223382_chicken-stir-fry_Rita-1x1-1-b6b835ccfc714bb6a8391a7c47a06a84.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Vegetable Pasta",
+      "description": "A delicious pasta dish loaded with colorful vegetables.",
+      "ingredients": [
+        "300 g pasta",
+        "2 bell peppers, sliced",
+        "1 zucchini, diced",
+        "1 onion, chopped",
+        "3 cloves garlic, minced",
+        "250 g cherry tomatoes, halved"
+      ],
+      "time": "25 min",
+      "calories": "250 calories",
+      "image": "https://buildyourbite.com/wp-content/uploads/2022/08/Roasted-vegetable-pasta-recipe-3-720x720.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Spinach and Feta Stuffed Chicken Breast",
+      "description": "Tender chicken breasts stuffed with spinach and creamy feta cheese.",
+      "ingredients": [
+        "4 chicken breasts",
+        "200 g spinach",
+        "150 g feta cheese",
+        "2 cloves garlic, minced",
+        "1 tbsp olive oil",
+        "Salt and pepper to taste"
+      ],
+      "time": "35 min",
+      "calories": "380 calories",
+      "image": "https://recipes.net/wp-content/uploads/2023/05/spinach-and-feta-stuffed-chicken-breast-recipe_4330bdac2ffc4d9b193662adedd72d1a.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Quinoa Salad with Avocado and Chickpeas",
+      "description": "A refreshing and nutritious salad featuring quinoa, avocado, and chickpeas.",
+      "ingredients": [
+        "1 cup quinoa, cooked",
+        "1 avocado, diced",
+        "1 can (400 g) chickpeas, drained and rinsed",
+        "1 cucumber, diced",
+        "1 bell pepper, diced",
+        "Juice of 1 lemon",
+        "2 tbsp olive oil",
+        "Salt and pepper to taste"
+      ],
+      "time": "20 min",
+      "calories": "280 calories",
+      "image": "https://www.eatingwell.com/thmb/lu7doBNNT7hFFABn6NP7ghojOQE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6859253-83bb7ca335f046d694de9aa8042eaf0a.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Beef Tacos",
+      "description": "Classic beef tacos with all the fixings for a delicious meal.",
+      "ingredients": [
+        "500 g ground beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "1 packet taco seasoning",
+        "8 taco shells",
+        "Toppings: shredded lettuce, diced tomatoes, shredded cheese, sour cream, salsa"
+      ],
+      "time": "25 min",
+      "calories": "350 calories",
+      "image": "https://www.modernhoney.com/wp-content/uploads/2023/01/Ground-Beef-Tacos-11-crop-scaled.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Salmon with Roasted Vegetables",
+      "description": "Tender and flaky salmon served with a side of roasted vegetables.",
+      "ingredients": [
+        "4 salmon fillets",
+        "2 bell peppers, sliced",
+        "1 zucchini, sliced",
+        "1 red onion, sliced",
+        "2 tbsp olive oil",
+        "Salt and pepper to taste"
+      ],
+      "time": "35 min",
+      "calories": "300 calories",
+      "image": "https://thegardeningcook.com/wp-content/uploads/2013/07/salmon-roast-vegetables-735x736.jpg"
+    }
+  ]
+  
