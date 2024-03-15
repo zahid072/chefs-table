@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className="max-w-[1320px] mx-auto">
+      <div className="max-w-[1320px] md:mx-auto mx-4">
         <Home/>
       </div>
     </>

@@ -35,7 +35,7 @@ const Nav = () => {
     </div>
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-        <div className=" rounded-full bg-green-500 size-10 flex justify-center items-center">
+        <div className=" rounded-full bg-[#0BE58A] size-10">
           <FaRegUserCircle className="size-5 mx-auto mt-[11px]"/>
         </div>
       </div>

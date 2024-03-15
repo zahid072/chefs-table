@@ -1,12 +1,33 @@
-import React from 'react'
-import Nav from '../navbar/Nav'
+import React, { useEffect, useState } from "react";
+import Nav from "../navbar/Nav";
+import Banner from "../Banner/Banner";
+import Recipe from "../recipe/Recipe";
 
 const Home = () => {
-  return (
-    <div>
-      <Nav/>
-    </div>
-  )
-}
+  const [recipes, setRecipes] = useState([]);
+  
 
-export default Home
+  useEffect(() => {
+    fetch('recipe.json')
+    .then(res => res.json())
+    .then(data => {
+        console.log(data);
+        setRecipes(data);
+    } )
+  }, []);
+  return (
+    <>
+      <div>
+        <Nav />
+      </div>
+      <div>
+        <Banner />
+      </div>
+      <div>
+        <Recipe recipes={recipes}/>
+      </div>
+    </>
+  );
+};
+
+export default Home;
