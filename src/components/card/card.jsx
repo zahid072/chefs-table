@@ -29,7 +29,9 @@ const Card = ({ recipe, wantToCookHandler }) => {
               <CiClock2 className="inline mr-1"/>
               {time}
             </p>
-            <p>{calories}</p>
+            <p>
+              <img className="size-8 inline" src="https://static.thenounproject.com/png/1180285-200.png" alt="" />
+              {calories}</p>
           </div>
           <div className="card-actions justify-start">
             <button
