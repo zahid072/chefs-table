@@ -5,7 +5,7 @@ const Card = ({ recipe, wantToCookHandler }) => {
   const { name, image, description, time, calories, ingredients } = recipe;
   return (
     <div>
-      <div className="card max-w-[380px] bg-base-100 shadow-xl p-5 border">
+      <div className="card max-w-[380px] h-[750px] bg-base-100 shadow-xl p-5 border">
         <figure>
           <img className="h-60 rounded-lg " src={image} alt="Shoes" />
         </figure>
@@ -16,15 +16,17 @@ const Card = ({ recipe, wantToCookHandler }) => {
             <h3 className="font-bold text-2xl">
               Ingredient: <span>{ingredients.length}</span>
             </h3>
-            <ul className=" *:list-disc ml-8 mt-4">
-              <li>{ingredients[0]}</li>
-              <li>{ingredients[1]}</li>
-              <li>{ingredients[2]}</li>
+            <ul className=" *:list-disc h-56 ml-8 mt-4">
+              {
+                ingredients.map(ingredient => (
+                  <li>{ingredient}</li>
+                ))
+              }
             </ul>
           </div>
           <div className="flex gap-5 py-3">
             <p>
-              <CiClock2 />
+              <CiClock2 className="inline mr-1"/>
               {time}
             </p>
             <p>{calories}</p>

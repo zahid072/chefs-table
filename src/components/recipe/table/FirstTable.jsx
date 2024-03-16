@@ -12,7 +12,7 @@ const FirstTable = ({ preparingHandler, recipe, index }) => {
   return (
     <>
       {tbody && (
-        <tr className="bg-base-200">
+        <tr className="bg-base-200 border-y-[#3a35353f]">
           <th>{index + 1}</th>
           <td>{name}</td>
           <td>{time}</td>

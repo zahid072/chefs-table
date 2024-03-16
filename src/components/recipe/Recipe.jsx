@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Card from "../card/Card";
 import FirstTable from "./table/FirstTable";
 import SecondTable from "./table/SecondTable";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Recipe = ({ recipes }) => {
   const [count, setCount] = useState(0);
@@ -12,9 +14,13 @@ const Recipe = ({ recipes }) => {
   const [totalCalories, setTotalCalories] = useState(0);
 
   const wantToCookHandler = (recipe) => {
-    setCount(count + 1);
-    const newTable = [...tableBody, recipe];
-    setTableBody(newTable);
+    if (tableBody.includes(recipe)) {
+      toast("already exist");
+    } else {
+      setCount(count + 1);
+      const newTable = [...tableBody, recipe];
+      setTableBody(newTable);
+    }
   };
   const preparingHandler = (index, recipe, time, calories) => {
     const updatedTableBody = [
@@ -69,7 +75,7 @@ const Recipe = ({ recipes }) => {
                     <th>Calorie</th>
                   </tr>
                 </thead>
-                <tbody>
+                <tbody className=" border-y-black">
                   {tableBody.map((recipe, index) => (
                     <FirstTable
                       key={recipe.id}
@@ -118,6 +124,7 @@ const Recipe = ({ recipes }) => {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 };
