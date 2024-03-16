@@ -11,7 +11,6 @@ const Home = () => {
     fetch('recipe.json')
     .then(res => res.json())
     .then(data => {
-        console.log(data);
         setRecipes(data);
     } )
   }, []);
