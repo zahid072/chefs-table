@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className="max-w-[1320px] md:mx-auto mx-4 lexend-uniquifier">
+      <div className="max-w-[1320px] md:mx-auto mx-2 lexend-uniquifier">
         <Home/>
       </div>
     </>

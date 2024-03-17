@@ -24,7 +24,7 @@ const Card = ({ recipe, wantToCookHandler }) => {
               }
             </ul>
           </div>
-          <div className="flex gap-5 py-3">
+          <div className="flex gap-5 py-2">
             <p>
               <CiClock2 className="inline mr-1"/>
               {time}

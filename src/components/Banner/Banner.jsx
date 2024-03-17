@@ -12,11 +12,11 @@ const Banner = () => {
           Delight in recipes with calorie details, making healthy eating
           effortless and enjoyable!
         </p>
-        <div className="mt-6">
-          <button className="px-5 py-2 rounded-full text-black bg-[#0BE58A] font-bold">
+        <div className="mt-6 *:transition">
+          <button className="px-5 py-2 rounded-full hover:text-black border hover:bg-[#0BE58A] font-bold">
             Explore Now
           </button>
-          <button className="px-5 py-2 rounded-full border ml-5 font-bold">
+          <button className="px-5 py-2 rounded-full border ml-5 hover:text-black hover:bg-[#0BE58A] font-bold">
             Our Feedback
           </button>
         </div>
