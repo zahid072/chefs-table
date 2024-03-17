@@ -31,7 +31,7 @@ const Nav = () => {
     <div className="flex-none gap-2 navbar-end">
     <div className="rounded-full flex items-center gap-2 bg-slate-200 w-32 md:w-[260px] px-3 py-2 md:p-3">
      <CiSearch className='size-6'/>
-      <input type="text" placeholder="Search" className=" w-32 outline-none bg-transparent md:w-auto " />
+      <input type="text" placeholder="Search" className=" w-full outline-none bg-transparent md:w-auto " />
     </div>
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
