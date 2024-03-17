@@ -16,22 +16,25 @@ const Card = ({ recipe, wantToCookHandler }) => {
             <h3 className="font-bold text-2xl">
               Ingredient: <span>{ingredients.length}</span>
             </h3>
-            <ul className=" *:list-disc h-56 ml-8 mt-4">
-              {
-                ingredients.map(ingredient => (
-                  <li>{ingredient}</li>
-                ))
-              }
+            <ul className=" *:list-disc h-44 ml-8 mt-2">
+              {ingredients.map((ingredient) => (
+                <li>{ingredient}</li>
+              ))}
             </ul>
           </div>
           <div className="flex gap-5 py-2">
             <p>
-              <CiClock2 className="inline mr-1"/>
+              <CiClock2 className="inline mr-1" />
               {time}
             </p>
             <p>
-              <img className="size-8 inline" src="https://static.thenounproject.com/png/1180285-200.png" alt="" />
-              {calories}</p>
+              <img
+                className="size-8 inline"
+                src="https://static.thenounproject.com/png/1180285-200.png"
+                alt=""
+              />
+              {calories}
+            </p>
           </div>
           <div className="card-actions justify-start">
             <button
